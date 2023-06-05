@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>iTunes Search App</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>iTunes Search App</h1>
+      <input type="text" id="searchBar" placeholder="Upišite nešto" />
+      <div id="loader" class="loader"></div>
+      <table id="resultsTable">
+        <thead class="tableHead">
+          <tr>
+            <th>Pjesma</th>
+            <th class="umjetnik">Umjetnik</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
